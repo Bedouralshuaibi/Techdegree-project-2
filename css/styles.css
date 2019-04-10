@@ -1,0 +1,152 @@
+/* =================================
+  Base Element Styles
+==================================== */
+*
+{
+  box-sizing:border-box;
+}
+body
+{
+  line-height:1.5rem;
+  color:#4B4B4B;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+ul
+{
+  list-style-type:none;
+  font-weight:700;
+  margin:0;
+  padding:0;
+
+}
+
+a
+{
+  text-decoration:none;
+  color:#4B4B4B;
+
+}
+h1
+{
+  font-weight:700;
+
+}
+ h4, h3
+{
+  color: #4A4949;
+  font-weight:600;
+}
+h4
+{
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+p
+{
+  font-weight: normal;
+  font-size:1.2rem;
+  padding:10px;
+}
+
+img
+{
+  max-width:100%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+/* ---- Navigation ---- */
+
+.top-nav
+{
+  padding:15px 0 40px;
+}
+.top-nav li
+{
+  margin-bottom:7px;
+  display:inline-block;
+  float:none;
+   background-color:white;
+   width:100%;
+  padding: 15px 20px;
+}
+.top-nav a
+{
+   text-align:center;
+  font-size:1.2rem;
+  text-transform:uppercase;
+}
+
+
+.bottom-nav
+{
+  width: 90%;
+  margin: 0 auto;
+  padding:30px 0;
+  overflow:hidden;
+}
+.bottom-left
+{
+
+  float:left;
+
+}
+.bottom-right
+{
+  float:right;
+
+}
+
+
+ a:hover
+{
+ color:#E4E4E4;
+}
+
+.header-brif p
+{
+  color:#9C3701;
+}
+/* ---- Layout Containers ---- */
+
+.main-header
+{
+  background-color:#FAFAFA;
+
+}
+
+.main-footer
+{
+  background-color:#FAFAFA;
+  color: #797979;
+
+}
+.container
+{
+   width:100%;
+ margin:0 auto;
+  text-align:center;
+  padding:20px;
+
+}
+
+.lower-nav
+{
+  display: none;
+}
+/* ---- Page Elements ---- */
+
+.t-border
+{
+  border-bottom:1px solid #E2E0E0;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.header-pic
+{
+  max-width:60%;
+  padding-top:10px;
+}

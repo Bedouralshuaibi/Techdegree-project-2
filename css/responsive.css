@@ -1,0 +1,174 @@
+@media screen and (min-width:768px)
+  {
+
+.top-nav li , .lower-nav li
+{
+  display:inline;
+  background-color:transparent;
+ padding:20px 40px;
+}
+.header-brif
+{
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.header-brif p
+{
+  width: 60%;
+  float: left;
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+}
+.header-pic
+{
+  width: 40%;
+  max-width: 100%;
+  float: right;
+
+}
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+.wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper li
+{
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+  padding: 5px;
+  display: inline-block;
+
+}
+.wrapper li:nth-child(3)
+{
+  clear: left;
+}
+#hide
+  {
+    display: none;
+  }
+.lower-nav
+  {
+display:inline-block;
+float: right;
+padding-left:30px;
+  }
+
+.lower-nav li
+    {
+      float: right;
+      padding-right: 0;
+
+    }
+
+
+}
+
+@media screen and (min-width:1024px)
+{
+
+   #nav{
+     width: 90%;
+     margin: 0 auto;
+     display:inline-block;
+   }
+
+   #nav h1
+   {
+     display: inline-block;
+     float: left;
+     margin-top: 10px;
+   }
+
+   #nav a {
+     font-size:0.9rem;
+ }
+
+ #nav li{
+   margin-right: -40px;
+ }
+
+  #nav ul{
+    display: inline-block;
+    float: right;
+  }
+
+  .header-brif{
+    width: 90%;
+    margin: 0 auto;
+
+
+  }
+  .header-brif p
+  {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+
+
+  }
+
+  .header-pic
+  {
+    width: 40%;
+    margin: 0 auto;
+    float: right;
+
+
+  }
+  .container
+  {
+    background-color:#FAFAFA;
+
+  }
+
+.wrapper
+{
+  width:100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+  .wrapper li{
+    width: 32.3333%;
+    padding: 15px;
+  }
+  .wrapper li:nth-child(3n)
+  {
+    clear: right;
+  }
+    .wrapper li:nth-child(4n)
+    {
+      clear: left;
+    }
+
+#hide
+  {
+    display: none;
+  }
+  .lower-nav
+    {
+  display:inline-block;
+  float: right;
+  padding-left:20px;
+    }
+
+  .lower-nav li
+      {
+        float: right;
+        padding-right: 0;
+
+      }
+
+}
